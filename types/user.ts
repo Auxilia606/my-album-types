@@ -1,4 +1,4 @@
-export type User = {
+export type UserDTO = {
   nickname: string;
   email: string;
   password: string;

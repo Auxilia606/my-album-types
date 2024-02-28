@@ -1,0 +1,9 @@
+{
+  "name": "my-album-types",
+  "version": "1.0.0",
+  "description": "type repository",
+  "main": "index.ts",
+  "repository": "https://github.com/Auxilia606/my-album-types.git",
+  "author": "DESKTOP-61B6P5C\\auxil <auxilia606@gmail.com>",
+  "license": "MIT"
+}
