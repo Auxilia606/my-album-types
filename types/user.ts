@@ -7,3 +7,7 @@ export type UserDTO = {
 export type UserResDTO = {
   exists: boolean;
 };
+
+export type UserEmailDTO = Pick<UserDTO, "email">;
+
+export type UserNicknameDTO = Pick<UserDTO, "nickname">;
