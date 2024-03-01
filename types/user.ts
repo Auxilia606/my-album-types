@@ -4,6 +4,11 @@ export type UserDTO = {
   password: string;
 };
 
+export type UserLoginDTO = {
+  email: string;
+  password: string;
+};
+
 export type UserResDTO = {
   exists: boolean;
 };
