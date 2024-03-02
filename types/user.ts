@@ -1,7 +1,10 @@
+import { PhotoDTO } from "./photo";
+
 export type UserDTO = {
   nickname: string;
   email: string;
   password: string;
+  photos: PhotoDTO[];
 };
 
 export type UserLoginDTO = {
