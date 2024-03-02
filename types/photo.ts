@@ -1,4 +1,5 @@
 export type PhotoDTO = {
+  _id: string;
   url: string;
   thumbnail: string;
   createdDate: string;
