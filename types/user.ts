@@ -16,6 +16,8 @@ export type UserResDTO = {
   exists: boolean;
 };
 
+export type UserPhotoResDTO = Pick<UserDTO, "photos">;
+
 export type UserEmailDTO = Pick<UserDTO, "email">;
 
 export type UserNicknameDTO = Pick<UserDTO, "nickname">;
