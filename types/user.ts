@@ -1,4 +1,4 @@
-import { PhotoDTO } from "./photo";
+import { type PhotoDTO } from "./photo";
 
 export type UserDTO = {
   nickname: string;
